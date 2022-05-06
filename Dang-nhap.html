@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALAXY STORE: ĐĂNG NHẬP</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #body{
+            background-color: #052340;
+            background-image: url(Store-img/macos-monterey-wwdc-21-stock-dark-mode-5k-6016x6016-5585.jpg);
+            background-size: 1920px 1080px;
+        }
+
+        .zoom{
+            overflow: hidden;
+        
+        }
+
+        .zoom img{
+            transition: 0.6s;
+        }
+
+        .zoom:hover img{
+            transform: scale(1.1, 1.1);
+        }
+
+        .title{
+            animation-name: trai;
+            animation-duration: 3s;
+        }
+
+        
+        .logo{
+            animation-name: duoi;
+            animation-duration: 2s;
+            margin-top: 10px;
+            margin-left: 30%;
+            border-radius: 15px;
+        }
+
+        .text1{
+            margin: 10px;
+            font-size: 25px;
+            text-decoration: none;
+            color : #BFC9CA;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .text{
+            margin: 10px;
+            font-size: 15px;
+            text-decoration: none;
+            color : #BFC9CA;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .acc{
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .input{
+            width: 600px;
+            height: 60px;
+            border-radius: 10px;
+            border-style: none;
+        }
+
+        .input2{
+            width: 600px;
+            height: 60px;
+            border-radius: 10px;
+            border-style: none;
+            margin-top: 15px;
+        }
+
+        .text a{
+            color: #BFC9CA;
+        }
+
+        .zoom{
+            overflow: hidden;
+        
+        }
+
+        .zoom input{
+            transition: 0.6s;
+        }
+
+        .zoom:hover input{
+            transform: scale(1.1, 1.1);
+        }
+
+        .icon{
+           
+            border-radius: 10px;
+        }
+
+        .div2{
+            animation-name: trai;
+            animation-duration: 3s;
+            margin-left: 30% ;
+        }
+
+        @keyframes trai{
+    0%{
+        opacity: 0;
+        transform: translate(-100px,0);
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+@keyframes tren{
+    0%{
+        opacity: 0;
+        transform: translate(0,+100px);
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+@keyframes duoi{
+    0%{
+        opacity: 0;
+        transform: translate(0,-100px);
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+
+        .bta{
+        animation-name: tren;
+        animation-duration: 2s;
+        border-radius: 10px;
+        width: 57%;
+        margin: 3PX;
+        height: 70px;
+        font-size: 20px;
+        border-style: none;
+        background-color: #000000;
+        color : #BFC9CA;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+    </style>
+</head>
+<body id="body">
+    
+    <a href="Store.html" class="zoom">
+        <img src="Store-img/stlogo.png" width="40%" class="logo" >
+    </a>
+
+    <div align="center" class="title">
+        <a href="" class="zoom">
+            <img src="Store-img/acc.jpg" width="100px" class="acc" style="filter:brightness(80%);">
+        </a>
+        <p CLASS="text1">ĐĂNG NHẬP</p>
+
+        
+            <input class="input" type="text" placeholder="TÀI KHOẢN" style="filter:brightness(80%);">
+        
+        
+        <br>
+
+      
+            <input class="input2" type="password" placeholder="MẬT KHẨU" style="filter:brightness(80%);">
+       
+
+        <p CLASS="text">CHƯA CÓ TÀI KHOẢN ? <a href="Store.html">ĐĂNG KÝ</a></p>
+
+    </div>
+
+    <DIV class="div2">
+        
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.facebook.com" class="zoom">
+                        <img src="Store-img/fb.jpg" class="icon" width="60px" >
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.facebook.com" >
+                        <p class="text">ĐĂNG NHẬP VỚI FACEBOOK</p>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="https://www.google.com/intl/vi/account/about/?msclkid=0eaa149bbc5e11ecbe446c52b20c30ab" class="zoom">
+                        <img src="Store-img/google.jpg" class="icon" width="60px" style="filter:brightness(80%);">
+                    </a>
+                </td>
+                <td>
+
+                    <a href="https://www.google.com/intl/vi/account/about/?msclkid=0eaa149bbc5e11ecbe446c52b20c30ab">
+                        <p class="text">ĐĂNG NHẬP VỚI GOOGLE</p>
+                    </a>
+                </td>
+            </tr>
+
+        </table>
+
+        <a href="Store.html" class="zoom">
+            <input CLASS="bta" type="button" value="ĐĂNG NHẬP">
+        </a>
+    </DIV>
+
+    
+</body>
+</html>

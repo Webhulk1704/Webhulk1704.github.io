@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#body{
+    background-color: #052340;
+    background-image: url(Store-img/macos-monterey-wwdc-21-stock-dark-mode-5k-6016x6016-5585.jpg);
+    background-size: 1920px 1550px;
+}
+
+.all{
+    width: 90%;
+    height: auto;
+}
+
+.top{
+    margin: 13px;
+    width: 107%;
+    height: 200px;
+    background-color: #17202A;
+    border-radius: 15px;
+    animation-name: a1;  
+    animation-duration: 3s; 
+}
+
+.down{
+    animation-name: a2;  
+    animation-duration: 2.5s; 
+}
+
+@keyframes a2{
+    0%{
+        opacity: 0;
+        transform: translate(0,+100px);
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+#logo img{
+    margin-top: 8%;
+    margin-left: 6%;
+    border-radius: 10px;
+    height: 155px;
+}
+
+.zoom{
+    overflow: hidden;
+    
+}
+
+.zoom img{
+    transition: 0.6s;
+}
+
+.zoom:hover img{
+    transform: scale(1.1, 1.1);
+}
+
+#icontop{
+    border-radius: 30px;
+    
+}
+
+
+
+.tb1 tr td a{
+    text-decoration: none;
+    color : #BFC9CA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.anhtop{
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.timkiem{
+    border-style: none;
+    width: 12%;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #BFC9CA;
+}
+
+.tb2{
+    padding-top: 20px;
+    
+}
+
+.tb2 tr td a{
+    text-decoration: none;
+    color : #BFC9CA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.tb2 tr td a img{
+    vertical-align: middle;
+    margin: 15px;
+}
+
+.icon2{
+    border-radius: 10px;
+    animation-name: a3;
+    animation-duration: 3s;
+}
+
+@keyframes a3{
+    0%{
+        opacity: 0;
+        transform: translate(-100px,0);
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+.last{
+    width: 107%;
+    height: 170px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 15PX;
+    margin-bottom: 55px;
+}
+
+.last h4{
+    margin-top: 10px;
+}
+
+.last table{
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+.last h2{
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    color: #85929E;
+}
+
+.last h4{
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    color: #85929E;
+}
+
+.last table tr td a img{
+    vertical-align: middle;
+    
+}
+
+.last table tr td a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    color: #85929E;
+    font-size: 13.5px;
+    padding:20px;
+}
+
+.zoom{
+    overflow: hidden;
+    
+}
+
+.zoom img{
+    transition: 0.5s;
+}
+
+.zoom:hover img{
+    transform: scale(1.2, 1.2);
+}
+
+.zoomig{
+    overflow: hidden;
+    
+}
+
+.zoomig img{
+    transition: 0.5s;
+}
+
+.zoomig:hover img{
+    transform: scale(1.2, 1.2);
+}
+
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    padding-right: 30px;
+    color: #EBEDEF;
+}
+
+.text2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-size: 13px;
+    padding-left: 20px;
+    color: #2C3E50;
+}
+
+.zoom1{
+    overflow: hidden;
+    
+}
+
+.zoom1 img{
+    transition: 0.5s;
+}
+
+.zoom1:hover img{
+    transform: scale(1.05, 1.05);
+}
+
+.anhgif{
+    margin-top: 25px;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+
+.anhgif1{
+    margin-top: 25px;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+
+#pad{
+    margin-left: 320px;
+    margin-top: 20px;
+}
+
+.sp{
+    width: 80%;
+    
+    background-color: #17202A ;
+    border-radius: 10px;
+    
+}
+
+.sp1{
+    width: 160%;
+    padding-left: 20%;
+    background-color: #17202A ;
+    border-radius: 10px;
+    
+}
+
+
+
+.sp-img{
+    
+    border-radius: 10px;
+}  
+
+.zoomsp{
+    overflow: hidden;
+    
+}
+
+.zoomsp img{
+    transition: 0.5s;
+}
+
+.zoomsp:hover img{
+    transform: scale(1.05, 1.05);
+}
+
+.textsale{
+    color: #F39C12;
+}
+    
+.textsp{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+
+.spgif{
+    width: 160%;
+    height: 260px;
+    background-color: #17202A ;
+    border-radius: 10px;
+    
+}
+
+#homee{
+    color: #F39C12;
+}
+
+
+@keyframes a1{
+    0%{
+        opacity: 0;
+        transform: translate(0,-100px);
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
